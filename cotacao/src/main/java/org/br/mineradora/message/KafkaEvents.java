@@ -1,6 +1,6 @@
 package org.br.mineradora.message;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 import org.br.mineradora.dto.QuotationDTO;
 import org.eclipse.microprofile.reactive.messaging.Channel;
 import org.eclipse.microprofile.reactive.messaging.Emitter;
@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @ApplicationScoped
-public class KafkaEvents {
+public class  KafkaEvents {
 
     private final Logger log = LoggerFactory.getLogger(KafkaEvents.class);
 
