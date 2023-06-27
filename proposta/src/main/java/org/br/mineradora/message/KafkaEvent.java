@@ -16,4 +16,9 @@ public class KafkaEvent {
     Emitter<ProposalDTO> proposalRequesterEmitter;
 
 
+    public void sendNewKafkaEvent(ProposalDTO proposalDTO){
+        LOG.info("-- Enviando Nova Proposta para on Tópico Kafka --");
+        proposalRequesterEmitter.send(proposalDTO).toCompletableFuture().join();
+    }
+
 }

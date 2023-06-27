@@ -22,6 +22,8 @@ public class ProposalEntity {
     @Column(name = "price_tone")
     private BigDecimal priceTonne;
 
+    private String country;
+
     private Integer tonnes;
 
     @Column(name = "proposal_validity_days")
