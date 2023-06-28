@@ -1,8 +1,8 @@
 package org.br.mineradora.controller;
 
-import jakarta.inject.Inject;
-import jakarta.ws.rs.*;
-import jakarta.ws.rs.core.Response;
+import javax.inject.Inject;
+import javax.ws.rs.*;
+import javax.ws.rs.core.Response;
 import org.br.mineradora.dto.ProposalDetailsDTO;
 import org.br.mineradora.message.KafkaEvent;
 import org.br.mineradora.service.ProposalService;
