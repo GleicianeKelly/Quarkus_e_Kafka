@@ -1,10 +1,10 @@
 package org.br.mineradora.scheduler;
 
 import io.quarkus.scheduler.Scheduled;
-import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.inject.Inject;
+import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
 
-import jakarta.transaction.Transactional;
+import javax.transaction.Transactional;
 import org.br.mineradora.message.KafkaEvents;
 import org.br.mineradora.service.QuotationService;
 import org.slf4j.Logger;

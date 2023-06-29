@@ -5,7 +5,7 @@ package org.br.mineradora.entity;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.Date;
 

@@ -1,7 +1,7 @@
 package org.br.mineradora.service;
 
-import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.inject.Inject;
+import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
 import org.br.mineradora.client.CurrencyPriceClient;
 import org.br.mineradora.dto.CurrencyPriceDTO;
 import org.br.mineradora.dto.QuotationDTO;
