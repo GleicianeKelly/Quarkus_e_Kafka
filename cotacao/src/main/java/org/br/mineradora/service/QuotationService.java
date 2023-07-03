@@ -18,7 +18,7 @@ import java.util.List;
 public class QuotationService {
 
     @Inject
-    @RestClient
+    @RestClient //Anotação que indica que iremos fazer uma solicitação via http para o serviço REST correspondente
     CurrencyPriceClient currencyPriceClient;
 
     @Inject

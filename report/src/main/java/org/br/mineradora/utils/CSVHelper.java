@@ -1,4 +1,4 @@
-package org.br.mineradora.utils;
+/*package org.br.mineradora.utils;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
@@ -35,4 +35,4 @@ public class CSVHelper {
         }
     }
 
-}
+}*/
