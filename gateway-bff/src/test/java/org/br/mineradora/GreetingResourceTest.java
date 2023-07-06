@@ -1,4 +1,4 @@
-package org.mineradora;
+package org.br.mineradora;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
